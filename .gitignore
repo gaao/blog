@@ -28,3 +28,4 @@ coverage
 *.tsbuildinfo
 # 开发过程文件
 vite.config.ts.timestamp-*.mjs
+cache/
