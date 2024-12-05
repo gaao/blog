@@ -53,17 +53,14 @@ export const shared = defineConfig({
       { icon: 'github', link: 'https://github.com/gaao' }
     ],
 
-    // search: {
-    //   provider: 'algolia',
-    //   options: {
-    //     appId: '8J64VVRP8K',
-    //     apiKey: '52f578a92b88ad6abde815aae2b0ad7c',
-    //     indexName: 'vitepress',
-    //     locales: {
-    //       ...zhSearch,
-    //     }
-    //   }
-    // },
+    search: {
+      provider: 'local',// 'local' || 'algolia'
+      options: {
+        locales: {
+          ...zhSearch,
+        }
+      }
+    },
     // 广告
     // carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' }
   }

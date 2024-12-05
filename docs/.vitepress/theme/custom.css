@@ -1,5 +1,12 @@
+/* .vitepress/theme/custom.css */
+:root {
+  --vp-c-brand-1: #ff7f17;
+  --vp-c-brand-2: #ffa743;
+  --vp-button-brand-bg: #ff7f17;
+  --vp-button-brand-hover-bg: #ffa743;
+}
 .custom-page-class {
   /* 特定页面的样式 */
   color: red;
-  background-color: #817c7c;
+  /* background-color: #817c7c; */
 }
